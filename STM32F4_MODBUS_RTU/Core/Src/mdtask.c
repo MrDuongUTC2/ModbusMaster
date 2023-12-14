@@ -65,14 +65,15 @@ void ModbusRTUTask(void const * argument)
   eMBMasterEnable();
 
   while(1) {
+
+	  //* @param ucSndAddr salve address
+	  //* @param usCoilAddr coil start address
+	  //* @param usCoilData data to be written
+	  //* @param lTimeOut timeout (-1 will waiting forever)
+	  	eMBMasterReqWriteCoil(1,8,0xFF00,-1 );
+
+
 		eMBMasterPoll();
-
-//		 * @param ucSndAddr salve address
-//		 * @param usCoilAddr coil start address
-//		 * @param usCoilData data to be written
-//		 * @param lTimeOut timeout (-1 will waiting forever)
-
-		eMBMasterReqWriteCoil(1,2,0xFF00,-1 );
   }
 }
 

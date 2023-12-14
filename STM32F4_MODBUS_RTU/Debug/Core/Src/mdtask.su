@@ -1,5 +1,5 @@
 ../Core/Src/mdtask.c:61:6:ModbusRTUTask	16	static
-../Core/Src/mdtask.c:114:14:eMBMasterRegInputCB	32	static
-../Core/Src/mdtask.c:161:14:eMBMasterRegHoldingCB	40	static
-../Core/Src/mdtask.c:226:14:eMBMasterRegCoilsCB	56	static
-../Core/Src/mdtask.c:306:14:eMBMasterRegDiscreteCB	48	static
+../Core/Src/mdtask.c:113:14:eMBMasterRegInputCB	32	static
+../Core/Src/mdtask.c:160:14:eMBMasterRegHoldingCB	40	static
+../Core/Src/mdtask.c:225:14:eMBMasterRegCoilsCB	56	static
+../Core/Src/mdtask.c:305:14:eMBMasterRegDiscreteCB	48	static

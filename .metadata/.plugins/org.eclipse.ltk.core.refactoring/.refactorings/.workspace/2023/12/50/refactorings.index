@@ -12,3 +12,4 @@
 1702479900563	Delete resource 'FreeModbus_Slave&Master+RTT+STM32'
 1702480020935	Delete resource 'STM32_RTU'
 1702481097357	Delete resource 'STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/port/portevent_m.h'
+1702569437853	Delete resource 'STM32F4_MODBUS_RTU'

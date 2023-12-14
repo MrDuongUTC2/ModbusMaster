@@ -1858,3 +1858,8 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 
 2023-12-14 22:17:11,085 [INFO] Activator:178 - !SESSION log4j initialized
 2023-12-14 22:17:17,379 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2023-12-14 22:50:36,751 [INFO] Activator:177 - 
+
+
+2023-12-14 22:50:36,753 [INFO] Activator:178 - !SESSION log4j initialized
+2023-12-14 22:50:40,252 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com

@@ -44,15 +44,15 @@ Core/Src/mdtask.o: ../Core/Src/mdtask.c \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
- D:/aHoang/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb_m.h \
- D:/aHoang/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/port/port.h \
- D:/aHoang/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb.h \
- D:/aHoang/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbport.h \
- D:/aHoang/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbproto.h \
- D:/aHoang/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb.h \
- D:/aHoang/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbport.h \
- D:/aHoang/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbconfig.h \
- D:/aHoang/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbutils.h
+ D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb_m.h \
+ D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/port/port.h \
+ D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb.h \
+ D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbport.h \
+ D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbproto.h \
+ D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb.h \
+ D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbport.h \
+ D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbconfig.h \
+ D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbutils.h
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:
@@ -98,12 +98,12 @@ Core/Src/mdtask.o: ../Core/Src/mdtask.c \
 ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
-D:/aHoang/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb_m.h:
-D:/aHoang/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/port/port.h:
-D:/aHoang/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb.h:
-D:/aHoang/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbport.h:
-D:/aHoang/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbproto.h:
-D:/aHoang/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb.h:
-D:/aHoang/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbport.h:
-D:/aHoang/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbconfig.h:
-D:/aHoang/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbutils.h:
+D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb_m.h:
+D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/port/port.h:
+D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb.h:
+D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbport.h:
+D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbproto.h:
+D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb.h:
+D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbport.h:
+D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbconfig.h:
+D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbutils.h:
