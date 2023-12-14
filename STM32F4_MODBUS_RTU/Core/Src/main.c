@@ -72,6 +72,7 @@ void StartDefaultTask(void const * argument);
 /* USER CODE BEGIN PFP */
 /* Private function prototypes -----------------------------------------------*/
 extern void ModbusRTUTask(void const * argument);
+extern void ModbusRTU_UserTask(void const * argument);
 
 /* USER CODE END PFP */
 
@@ -412,6 +413,9 @@ void StartDefaultTask(void const * argument)
   /* USER CODE BEGIN 5 */
 	osThreadDef(ModbusRTUTask, ModbusRTUTask, osPriorityNormal, 0, configMINIMAL_STACK_SIZE);
   osThreadCreate(osThread(ModbusRTUTask), NULL); 
+
+	osThreadDef(ModbusRTU_UserTask, ModbusRTU_UserTask, osPriorityNormal, 0, configMINIMAL_STACK_SIZE);
+osThreadCreate(osThread(ModbusRTU_UserTask), NULL);
 	
   /* Infinite loop */
   for(;;)

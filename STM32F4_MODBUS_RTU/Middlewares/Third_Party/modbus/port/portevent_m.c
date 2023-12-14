@@ -62,11 +62,6 @@ BOOL xMBMasterPortEventGet( eMBMasterEventType * eEvent )
     return xEventHappened;
 }
 
-/**
- * This function is initialize the OS resource for modbus master.
- * Note:The resource is define by OS.If you not use OS this function can be empty.
- *
- */
 
 /**
  * This function is take Mobus Master running resource.

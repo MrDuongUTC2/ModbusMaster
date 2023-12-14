@@ -70,13 +70,43 @@ void ModbusRTUTask(void const * argument)
 	  //* @param usCoilAddr coil start address
 	  //* @param usCoilData data to be written
 	  //* @param lTimeOut timeout (-1 will waiting forever)
-	  	eMBMasterReqWriteCoil(1,8,0xFF00,-1 );
+	  	//eMBMasterReqWriteCoil(1,8,0xFF00,-1 );
 
 
 		eMBMasterPoll();
   }
 }
 
+void ModbusRTU_UserTask(void const * argument)
+{
+
+  eMBMasterInit(MB_RTU, 2, 19200,  MB_PAR_NONE);
+  eMBMasterEnable();
+
+  while(1) {
+
+	  eMBMasterReqErrCode  errorCode = MB_MRE_NO_ERR;
+	  //* @param ucSndAddr salve address
+	  //* @param usCoilAddr coil start address
+	  //* @param usCoilData data to be written
+	  //* @param lTimeOut timeout (-1 will waiting forever)
+	  errorCode = eMBMasterReqWriteCoil(1,2,0xFF00,-1 );
+
+	  osDelay(500);
+
+	  errorCode = eMBMasterReqWriteCoil(1,8,0xFF00,-1 );
+
+	  osDelay(500);
+
+	  errorCode = eMBMasterReqWriteCoil(1,2,0x0000,-1 );
+
+	  osDelay(500);
+
+	  errorCode = eMBMasterReqWriteCoil(1,8,0x0000,-1 );
+
+	  osDelay(500);
+  }
+}
 
 
 #if MB_MASTER_RTU_ENABLED > 0 || MB_MASTER_ASCII_ENABLED > 0

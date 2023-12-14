@@ -1,6 +1,6 @@
 Middlewares/Third_Party/modbus/port/portevent_m.o: \
  ../Middlewares/Third_Party/modbus/port/portevent_m.c \
- D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb.h \
+ C:/Users/cc/Documents/GitHub/ModbusMaster/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb.h \
  D:/Modbusrtu_stm32/STM32_RTU/STM32_HAL_FREEMODBUS_RTU-master/Middlewares/Third_Party/modbus/port/port.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
@@ -30,14 +30,14 @@ Middlewares/Third_Party/modbus/port/portevent_m.o: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
- D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbport.h \
- D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbproto.h \
- D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb_m.h \
- D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb.h \
- D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbport.h \
+ C:/Users/cc/Documents/GitHub/ModbusMaster/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbport.h \
+ C:/Users/cc/Documents/GitHub/ModbusMaster/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbproto.h \
+ C:/Users/cc/Documents/GitHub/ModbusMaster/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb_m.h \
+ C:/Users/cc/Documents/GitHub/ModbusMaster/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb.h \
+ C:/Users/cc/Documents/GitHub/ModbusMaster/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbport.h \
  ../Middlewares/Third_Party/modbus/port/port.h \
- D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbconfig.h
-D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb.h:
+ C:/Users/cc/Documents/GitHub/ModbusMaster/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbconfig.h
+C:/Users/cc/Documents/GitHub/ModbusMaster/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb.h:
 D:/Modbusrtu_stm32/STM32_RTU/STM32_HAL_FREEMODBUS_RTU-master/Middlewares/Third_Party/modbus/port/port.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -67,10 +67,10 @@ D:/Modbusrtu_stm32/STM32_RTU/STM32_HAL_FREEMODBUS_RTU-master/Middlewares/Third_P
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
-D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbport.h:
-D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbproto.h:
-D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb_m.h:
-D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb.h:
-D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbport.h:
+C:/Users/cc/Documents/GitHub/ModbusMaster/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbport.h:
+C:/Users/cc/Documents/GitHub/ModbusMaster/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbproto.h:
+C:/Users/cc/Documents/GitHub/ModbusMaster/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb_m.h:
+C:/Users/cc/Documents/GitHub/ModbusMaster/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mb.h:
+C:/Users/cc/Documents/GitHub/ModbusMaster/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbport.h:
 ../Middlewares/Third_Party/modbus/port/port.h:
-D:/Modbus_Master/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbconfig.h:
+C:/Users/cc/Documents/GitHub/ModbusMaster/STM32F4_MODBUS_RTU/Middlewares/Third_Party/modbus/include/mbconfig.h:

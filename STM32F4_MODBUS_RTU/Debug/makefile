@@ -68,8 +68,8 @@ all: main-build
 main-build: STM32F4_MODBUS_RTU.elf secondary-outputs
 
 # Tool invocations
-STM32F4_MODBUS_RTU.elf STM32F4_MODBUS_RTU.map: $(OBJS) $(USER_OBJS) D:\Modbus_Master\STM32F4_MODBUS_RTU\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STM32F4_MODBUS_RTU.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Modbus_Master\STM32F4_MODBUS_RTU\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F4_MODBUS_RTU.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STM32F4_MODBUS_RTU.elf STM32F4_MODBUS_RTU.map: $(OBJS) $(USER_OBJS) C:\Users\cc\Documents\GitHub\ModbusMaster\STM32F4_MODBUS_RTU\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM32F4_MODBUS_RTU.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\cc\Documents\GitHub\ModbusMaster\STM32F4_MODBUS_RTU\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F4_MODBUS_RTU.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
