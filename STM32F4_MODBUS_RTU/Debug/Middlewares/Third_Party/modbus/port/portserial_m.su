@@ -1,0 +1,4 @@
+../Middlewares/Third_Party/modbus/port/portserial_m.c:40:6:vMBMasterPortSerialEnable	16	static
+../Middlewares/Third_Party/modbus/port/portserial_m.c:59:6:xMBMasterPortSerialInit	16	static
+../Middlewares/Third_Party/modbus/port/portserial_m.c:69:6:xMBMasterPortSerialPutByte	16	static
+../Middlewares/Third_Party/modbus/port/portserial_m.c:77:6:xMBMasterPortSerialGetByte	16	static
